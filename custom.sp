@@ -41,8 +41,8 @@
 #### Benchmar construct provides a mechanism for grouping controls into control benchmarks
 
   benchmark "bpost_custom" {
-    title       = "Bpost Architecture"
-    description = "Bpost Architecture Guardrails"
+    title       = "Architecture Guardrails"
+    description = "Application Load Balancer Architecture Guardrails"
     children = [
       control.alb_attached_to_waf
     ]
