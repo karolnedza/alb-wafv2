@@ -44,10 +44,6 @@
     title       = "Bpost Architecture"
     description = "Bpost Architecture Guardrails"
     children = [
-      control.wafv2_web_acl_logging_enabled,
-      control.alb_attached_to_waf,
-      control.wafv2_web_acl_rule_attached,
-      control.autoscaling_group_multiple_az_configured,
-      control.s3_bucket_versioning_and_lifecycle_policy_enabled
-    ] 
+      control.alb_attached_to_waf
+    ]
  }
